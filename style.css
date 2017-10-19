@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	width: 400px;
+	height: 70vh;
+	margin: 10vh auto 0;
+	overflow: scroll;
+	position: relative;
+}
+.box {
+	padding: 4px;
+	width: 96%;
+	margin: 0 auto;
+	background-color: #000;
+	color: #fff;
+	position: relative;
+}
+header {
+	padding: 10px 0;
+	background-color: #fa0;
+	text-align: center;
+}
+.stuck {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.buttonsblock {
+	height: 5vh;
+	width: 400px;
+	margin: 5vh auto;
+}
+.buttonsblock button {
+	width: 40%;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #f21;
+	float: right;
+	cursor: pointer;
+	height: 40px;
+}
+.buttonsblock button:first-child {
+	background-color: #12f;
+	float: left;
+}
+.buttonsblock button:focus {
+	outline: none;
+}
