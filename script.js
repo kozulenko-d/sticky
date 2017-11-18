@@ -11,3 +11,12 @@ document.querySelector('#disable').addEventListener("click", function(arr) {
 		h.classList.remove('stuck');
 	});
 }, false);
+
+console.log('5' - 3);
+console.log('5' + 3);
+console.log('5' + - '3');
+console.log('5' - '3');
+console.log('5' - true);
+console.log('5' - NaN);
+console.log('5' + NaN);
+console.log('5' + - NaN);
